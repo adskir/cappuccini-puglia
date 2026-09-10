@@ -1,0 +1,19 @@
+site_title: "Cappuccini di Puglia"
+site_tagline: "Ordine dei Frati Minori Cappuccini"
+
+curia:
+  name: "Curia Provinciale dell'Ordine dei Frati Minori Cappuccini di Puglia"
+  address: "TODO: inserire indirizzo della curia provinciale"
+  phone: "TODO: telefono"
+  email: "TODO: email"
+  map_embed_url: ""
+
+whatsapp_url: ""
+facebook_url: ""
+instagram_url: ""
+youtube_url: ""
+
+donate_enabled: false
+donate_url: ""
+
+footer_copyright: "© 2026 Provincia di Puglia dell'Ordine dei Frati Minori Cappuccini"

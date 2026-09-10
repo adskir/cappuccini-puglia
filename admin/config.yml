@@ -1,0 +1,198 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/images/uploads"
+public_folder: "/images/uploads"
+
+publish_mode: simple
+locale: "it"
+
+collections:
+  # ── IMPOSTAZIONI DEL SITO (singleton) ──
+  - name: "settings"
+    label: "Impostazioni del sito"
+    files:
+      - name: "general"
+        label: "Contatti e social"
+        file: "src/_data/settings.yml"
+        fields:
+          - { label: "Nome del sito", name: "site_title", widget: "string" }
+          - { label: "Tagline", name: "site_tagline", widget: "string" }
+          - label: "Curia (contatti principali)"
+            name: "curia"
+            widget: "object"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "Indirizzo", name: "address", widget: "string" }
+              - { label: "Telefono", name: "phone", widget: "string" }
+              - { label: "E-mail", name: "email", widget: "string" }
+              - { label: "Google Maps embed URL", name: "map_embed_url", widget: "string", required: false, hint: "Incolla il src dell'iframe da Google Maps → Condividi → Incorpora mappa" }
+          - { label: "Link gruppo WhatsApp", name: "whatsapp_url", widget: "string", required: false }
+          - { label: "Facebook", name: "facebook_url", widget: "string", required: false }
+          - { label: "Instagram", name: "instagram_url", widget: "string", required: false }
+          - { label: "YouTube", name: "youtube_url", widget: "string", required: false }
+          - { label: "Abilita donazioni", name: "donate_enabled", widget: "boolean", default: false }
+          - { label: "Link donazioni", name: "donate_url", widget: "string", required: false }
+          - { label: "Testo nel footer (copyright)", name: "footer_copyright", widget: "string" }
+
+  # ── FRATI IN PUGLIA ──
+  - name: "frati"
+    label: "Frati in Puglia"
+    files:
+      - name: "elenco"
+        label: "Elenco dei frati"
+        file: "src/_data/frati.yml"
+        fields:
+          - name: "frati"
+            label: "Frati"
+            widget: "list"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "Incarico (es. Ministro Provinciale)", name: "role", widget: "string", required: false }
+
+  # ── CONVENTI (Presenza dei Cappuccini) ──
+  - name: "conventi"
+    label: "Conventi (Presenza dei Cappuccini)"
+    folder: "src/conventi"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nome della città", name: "title", widget: "string" }
+      - { label: "Ordine nel menu", name: "order", widget: "number", default: 1 }
+      - { label: "Foto", name: "image", widget: "image", required: false }
+      - { label: "Testo", name: "body", widget: "markdown" }
+      - { label: "Indirizzo", name: "address", widget: "string", required: false }
+      - { label: "Indirizzo per corrispondenza", name: "correspondence_address", widget: "string", required: false }
+      - { label: "Telefono", name: "phone", widget: "string", required: false }
+      - { label: "E-mail", name: "email", widget: "string", required: false }
+      - { label: "Facebook", name: "facebook", widget: "string", required: false }
+      - { label: "Sito della parrocchia", name: "website", widget: "string", required: false }
+      - { label: "Latitudine", name: "lat", widget: "number", required: false, hint: "Es. 41.1171 — per mostrare il convento sulla mappa (tasto destro sul punto in Google Maps)" }
+      - { label: "Longitudine", name: "lng", widget: "number", required: false, hint: "Es. 16.8719" }
+      - label: "Orario delle celebrazioni"
+        name: "services"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Giorno/i", name: "label", widget: "string" }
+          - { label: "Orario", name: "time", widget: "string" }
+      - { label: "URL della pagina", name: "permalink", widget: "string", hint: "Es. /bari/" }
+
+  # ── NOTIZIE ──
+  - name: "notizie"
+    label: "Notizie"
+    folder: "src/notizie"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Foto", name: "image", widget: "image", required: false }
+      - { label: "Breve descrizione", name: "excerpt", widget: "text" }
+      - { label: "Testo della notizia", name: "body", widget: "markdown" }
+      - { label: "URL della pagina", name: "permalink", widget: "string", hint: "Es. /notizie/nome-notizia/" }
+
+  # ── BIBLIOTECA ──
+  - name: "biblioteca"
+    label: "Biblioteca"
+    folder: "src/biblioteca"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titolo", name: "title", widget: "string" }
+      - label: "Categoria"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Opere di San Francesco", value: "opere-francesco" }
+          - { label: "Opere e documenti dell'Ordine", value: "opere-documenti" }
+          - { label: "Pubblicazioni sui Cappuccini in Puglia", value: "pubblicazioni" }
+      - { label: "È una preghiera / testo breve?", name: "is_prayer", widget: "boolean", default: false, required: false }
+      - { label: "Testo del documento", name: "body", widget: "markdown" }
+      - { label: "URL della pagina", name: "permalink", widget: "string", hint: "Es. /biblioteca/nome/" }
+
+  # ── PAGINE STATICHE ──
+  - name: "pages"
+    label: "Pagine"
+    files:
+      - name: "san-francesco"
+        label: "San Francesco"
+        file: "src/svyaty-francishak.md"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Foto", name: "image", widget: "image", required: false }
+          - { label: "Testo", name: "body", widget: "markdown" }
+
+      - name: "frati-cappuccini"
+        label: "Frati Cappuccini"
+        file: "src/frati-cappuccini.md"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Foto", name: "image", widget: "image", required: false }
+          - { label: "Testo", name: "body", widget: "markdown" }
+
+      - name: "presenza-cappuccini"
+        label: "Presenza dei Cappuccini"
+        file: "src/prysutnasc-kapucynau.md"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Foto", name: "image", widget: "image", required: false }
+          - { label: "Testo", name: "body", widget: "markdown" }
+
+      - name: "patrono-provincia"
+        label: "Patrono della Provincia"
+        file: "src/blaslauleny-ganarat-kazminski.md"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Foto", name: "image", widget: "image", required: false }
+          - { label: "Testo", name: "body", widget: "markdown" }
+
+      - name: "essere-cappuccino"
+        label: "Essere cappuccino"
+        file: "src/essere-cappuccino.md"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Foto", name: "image", widget: "image", required: false }
+          - { label: "Testo introduttivo", name: "body", widget: "markdown" }
+          - label: "Citazioni di San Francesco"
+            name: "quotes"
+            widget: "list"
+            fields:
+              - { label: "Tema", name: "topic", widget: "string" }
+              - { label: "Citazione", name: "quote", widget: "text" }
+
+      - name: "come-diventare-cappuccino"
+        label: "Come diventare cappuccino"
+        file: "src/come-diventare-cappuccino.md"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Testo introduttivo", name: "body", widget: "markdown" }
+          - label: "Tappe"
+            name: "steps"
+            widget: "list"
+            fields:
+              - { label: "Numero (I, II, III...)", name: "numeral", widget: "string" }
+              - { label: "Nome della tappa", name: "title", widget: "string" }
+              - { label: "Descrizione", name: "description", widget: "text" }
+
+      - name: "link-utili"
+        label: "Link utili"
+        file: "src/spasylki.md"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Testo con i link", name: "body", widget: "markdown" }
+
+      - name: "galleria"
+        label: "Galleria"
+        file: "src/galleria.md"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Testo", name: "body", widget: "markdown" }
+          - label: "Foto"
+            name: "photos"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Foto", name: "image", widget: "image" }
+              - { label: "Didascalia (facoltativa)", name: "caption", widget: "string", required: false }

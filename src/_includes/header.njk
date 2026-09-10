@@ -1,0 +1,50 @@
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="/" class="brand">
+      <img class="brand-mark" src="/images/uploads/logo-capucyny.png" alt="">
+      <span class="brand-text">
+        <span class="big">Cappuccini</span>
+        <span class="small">DI PUGLIA</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+
+    <ul class="nav-list" id="navList">
+      <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="/san-francesco/">San Francesco</a></li>
+      <li class="nav-item"><a class="nav-link" href="/frati-cappuccini/">Frati Cappuccini</a></li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/presenza-cappuccini/">Presenza dei Cappuccini</a>
+        <button class="nav-caret" aria-label="Espandi elenco">▾</button>
+        <div class="nav-dropdown">
+          {% for c in collections.conventi %}
+            <a href="{{ c.url }}">{{ c.data.title }}</a>
+          {% endfor %}
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/essere-cappuccino/">Essere cappuccino</a>
+        <button class="nav-caret" aria-label="Espandi elenco">▾</button>
+        <div class="nav-dropdown">
+          <a href="/essere-cappuccino/come-diventare-cappuccino/">Come diventare cappuccino</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <span class="nav-link nav-link--parent">Risorse</span>
+        <button class="nav-caret" aria-label="Espandi elenco">▾</button>
+        <div class="nav-dropdown">
+          <a href="/biblioteca/">Biblioteca</a>
+          <a href="/notizie/">Notizie</a>
+          <a href="/galleria/">Galleria</a>
+          <a href="/link-utili/">Link utili</a>
+        </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="/contatti/">Contatti</a></li>
+    </ul>
+  </div>
+</header>

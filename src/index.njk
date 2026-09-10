@@ -1,0 +1,107 @@
+---
+layout: base.njk
+title: "Home"
+permalink: /
+eleventyExcludeFromCollections: true
+---
+<section class="hero">
+  <div class="hero-badge reveal">Ordine dei Frati Minori Cappuccini</div>
+  <h1 class="reveal">Cappuccini di Puglia</h1>
+  <p class="hero-sub reveal">Sito ufficiale della Provincia di Puglia dell'Ordine dei Frati Minori Cappuccini</p>
+  <a href="/frati-cappuccini/" class="btn reveal">Sull'Ordine</a>
+</section>
+
+<section>
+  <div class="container">
+    <span class="section-label reveal">Scopri di più sul nostro Ordine e sulla sua storia</span>
+    <h2 class="section-title reveal">Chi siamo</h2>
+    <div class="gold-divider reveal"></div>
+
+        <div class="card-grid">
+      <a href="/san-francesco/" class="teaser-card reveal">
+        {% image "/images/uploads/svyaty-francishak-el-greco-stygmaty.webp", "San Francesco", "(min-width: 700px) 340px, 100vw" %}
+        <div class="body">
+          <h3>San Francesco</h3>
+          <p>Francesco d'Assisi (1181–1226), fondatore del nostro Ordine — uno dei più grandi santi cristiani.</p>
+          <span class="more">Continua a leggere →</span>
+        </div>
+      </a>
+      <a href="/frati-cappuccini/" class="teaser-card reveal">
+        {% image "/images/uploads/img_9865-1.jpg.jpeg", "Frati Cappuccini", "(min-width: 700px) 340px, 100vw" %}
+        <div class="body">
+          <h3>Frati Cappuccini</h3>
+          <p>La famiglia religiosa dei Cappuccini è erede diretta della spiritualità di San Francesco.</p>
+          <span class="more">Continua a leggere →</span>
+        </div>
+      </a>
+      <a href="/presenza-cappuccini/" class="teaser-card reveal">
+        {% image "/images/uploads/img_9290.jpeg", "Cappuccini in Puglia", "(min-width: 700px) 340px, 100vw" %}
+        <div class="body">
+          <h3>Cappuccini in Puglia</h3>
+          <p>[TODO: breve cenno storico sulla presenza dei Frati Minori Cappuccini nella regione.]</p>
+          <span class="more">Continua a leggere →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--cream);">
+  <div class="container">
+    <span class="section-label reveal">Ultimi eventi e aggiornamenti</span>
+    <h2 class="section-title reveal">Notizie della Provincia</h2>
+    <div class="gold-divider reveal"></div>
+
+    <div class="news-grid">
+      {% for post in collections.notizie | limit(3) %}
+      <a href="{{ post.url }}" class="news-card reveal">
+        <span class="news-date">{{ post.data.date | dateBy }}</span>
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.excerpt }}</p>
+      </a>
+      {% endfor %}
+    </div>
+    <div style="text-align:center; margin-top:36px;">
+      <a href="/notizie/" class="btn reveal">Tutte le notizie</a>
+    </div>
+  </div>
+</section>
+
+<section class="locations-band">
+  <div class="container">
+    <span class="section-label reveal">I frati cappuccini vivono e operano in tutta la Puglia</span>
+    <h2 class="section-title reveal">I nostri conventi</h2>
+    <div class="gold-divider reveal" style="margin-left:auto; margin-right:auto;"></div>
+    <div class="loc-pills">
+      {% for c in collections.conventi %}
+      <a class="loc-pill reveal" href="{{ c.url }}">{{ c.data.title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <span class="section-label reveal">Contattaci</span>
+    <h2 class="section-title reveal">Contatti</h2>
+    <div class="gold-divider reveal"></div>
+
+    <div class="contact-grid">
+      <div class="reveal">
+                <h3 style="font-family:var(--font-display); font-size:16px; color:var(--brown-deep); margin:0 0 16px;">{{ settings.curia.name }}</h3>
+        <div class="contact-item"><span class="icon">📍</span><span>{{ settings.curia.address }}</span></div>
+        <div class="contact-item"><span class="icon">📞</span><a href="tel:{{ settings.curia.phone }}">{{ settings.curia.phone }}</a></div>
+        <div class="contact-item"><span class="icon">✉️</span><a href="mailto:{{ settings.curia.email }}">{{ settings.curia.email }}</a></div>
+      </div>
+      <div class="map-embed reveal">
+        {% if settings.curia.map_embed_url %}
+        <iframe src="{{ settings.curia.map_embed_url }}" loading="lazy" allowfullscreen></iframe>
+        {% else %}
+        <div style="height:320px; display:flex; align-items:center; justify-content:center; background:var(--cream); border:1px solid #a0522d22; color:var(--text-mid); font-size:14px; text-align:center; padding:20px;">
+          La mappa verrà aggiunta (inserire il link embed di Google Maps in settings)
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

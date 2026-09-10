@@ -1,0 +1,50 @@
+---
+layout: base.njk
+title: "Biblioteca"
+permalink: /biblioteca/
+---
+<section class="page-hero">
+  <h1>Biblioteca</h1>
+</section>
+<section>
+  <div class="article">
+    <p style="margin-bottom:40px;">La biblioteca dei Cappuccini raccoglie materiali spirituali, teologici e storici legati alla tradizione francescana e all'attività dell'Ordine dei Cappuccini in Puglia.</p>
+
+    <div class="lib-group">
+      <h2>Opere di San Francesco d'Assisi</h2>
+      <ul>
+        {% for doc in collections.biblioteca %}
+          {% if doc.data.category == "opere-francesco" %}
+          <li><a href="{{ doc.url }}">{{ doc.data.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="lib-group">
+      <h2>Opere e documenti dell'Ordine</h2>
+      <ul>
+        {% for doc in collections.biblioteca %}
+          {% if doc.data.category == "opere-documenti" %}
+          <li><a href="{{ doc.url }}">{{ doc.data.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="lib-group">
+      <h2>Pubblicazioni sui Cappuccini in Puglia</h2>
+      <ul>
+        {% for doc in collections.biblioteca %}
+          {% if doc.data.category == "pubblicazioni" %}
+          <li><a href="{{ doc.url }}">{{ doc.data.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div style="margin-top:12px;">
+      <a href="/" class="btn-outline">← Home</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,51 @@
+---
+layout: base.njk
+---
+<section class="page-hero">
+  <h1>{{ title }}</h1>
+  <div class="breadcrumb">Presenza dei Cappuccini</div>
+</section>
+
+<section>
+  <div class="article">
+    {% if image %}<div class="loc-hero">{% image image, title %}</div>{% endif %}
+
+    {{ content | safe }}
+
+    <dl class="loc-meta">
+      {% if address %}<dt>Indirizzo</dt><dd>{{ address }}</dd>{% endif %}
+      {% if residence_address %}<dt>Residenza dei frati</dt><dd>{{ residence_address }}</dd>{% endif %}
+      {% if correspondence_address %}<dt>Per la corrispondenza</dt><dd>{{ correspondence_address }}</dd>{% endif %}
+      {% if phone %}<dt>Telefono</dt><dd><a href="tel:{{ phone }}">{{ phone }}</a></dd>{% endif %}
+      {% if email %}<dt>E-mail</dt><dd><a href="mailto:{{ email }}">{{ email }}</a></dd>{% endif %}
+      {% if facebook %}<dt>Facebook</dt><dd><a href="{{ facebook }}" target="_blank" rel="noopener">{{ facebook }}</a></dd>{% endif %}
+      {% if instagram %}<dt>Instagram</dt><dd><a href="{{ instagram }}" target="_blank" rel="noopener">{{ instagram }}</a></dd>{% endif %}
+      {% if website %}<dt>Sito della parrocchia</dt><dd><a href="{{ website }}" target="_blank" rel="noopener">{{ website }}</a></dd>{% endif %}
+      {% if services and services.length %}
+        <dt>Orario delle celebrazioni</dt>
+        <dd>
+          {% for s in services %}{{ s.label }}: {{ s.time }}<br>{% endfor %}
+        </dd>
+      {% endif %}
+    </dl>
+
+    {% if lat and lng %}
+    <div class="map-embed" style="margin-top:24px; height:320px;" id="map-{{ page.fileSlug }}"></div>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+      (function () {
+        var m = L.map('map-{{ page.fileSlug }}').setView([{{ lat }}, {{ lng }}], 15);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; OpenStreetMap'
+        }).addTo(m);
+        L.marker([{{ lat }}, {{ lng }}]).addTo(m).bindPopup("{{ title }}");
+      })();
+    </script>
+    {% endif %}
+
+    <div style="margin-top:36px;">
+      <a href="/" class="btn-outline">← Home</a>
+    </div>
+  </div>
+</section>
