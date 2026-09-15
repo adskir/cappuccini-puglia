@@ -26,6 +26,16 @@
       </li>
 
       <li class="nav-item">
+        <a class="nav-link" href="/missioni/">Missioni</a>
+        <button class="nav-caret" aria-label="Espandi elenco">▾</button>
+        <div class="nav-dropdown">
+          {% for m in collections.missioni %}
+            <a href="{{ m.url }}">{{ m.data.title }}</a>
+          {% endfor %}
+        </div>
+      </li>
+
+      <li class="nav-item">
         <a class="nav-link" href="/essere-cappuccino/">Essere cappuccino</a>
         <button class="nav-caret" aria-label="Espandi elenco">▾</button>
         <div class="nav-dropdown">
