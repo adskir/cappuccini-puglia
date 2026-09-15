@@ -92,7 +92,28 @@ collections:
       - { label: "Breve descrizione", name: "excerpt", widget: "text" }
       - { label: "Testo della notizia", name: "body", widget: "markdown" }
       - { label: "URL della pagina", name: "permalink", widget: "string", hint: "Es. /notizie/nome-notizia/" }
-
+  # ── MISSIONI ──
+  - name: "missioni"
+    label: "Missioni"
+    folder: "src/missioni"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nome della fraternità", name: "title", widget: "string" }
+      - { label: "Ordine nel menu", name: "order", widget: "number", default: 1 }
+      - { label: "Foto", name: "image", widget: "image", required: false }
+      - { label: "Testo", name: "body", widget: "markdown" }
+      - { label: "Diocesi", name: "diocese", widget: "string", required: false }
+      - { label: "E-mail", name: "email", widget: "string", required: false }
+      - label: "Frati presenti"
+        name: "friars"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Nome", name: "name", widget: "string" }
+      - { label: "Latitudine", name: "lat", widget: "number", required: false }
+      - { label: "Longitudine", name: "lng", widget: "number", required: false }
+      - { label: "URL della pagina", name: "permalink", widget: "string", hint: "Es. /missioni/scutari/" }
   # ── BIBLIOTECA ──
   - name: "biblioteca"
     label: "Biblioteca"
