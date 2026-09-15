@@ -1,0 +1,45 @@
+---
+layout: base.njk
+---
+<section class="page-hero">
+  <h1>{{ title }}</h1>
+  <div class="breadcrumb"><a href="/missioni/" style="color:inherit;">Missioni</a></div>
+</section>
+
+<section>
+  <div class="article">
+    {% if image %}<div class="loc-hero">{% image image, title %}</div>{% endif %}
+
+    {{ content | safe }}
+
+    <dl class="loc-meta">
+      {% if diocese %}<dt>Diocesi</dt><dd>{{ diocese }}</dd>{% endif %}
+      {% if friars and friars.length %}
+        <dt>Frati presenti</dt>
+        <dd>
+          {% for f in friars %}{{ f.name }}{% if not loop.last %}, {% endif %}{% endfor %}
+        </dd>
+      {% endif %}
+      {% if email %}<dt>E-mail</dt><dd><a href="mailto:{{ email }}">{{ email }}</a></dd>{% endif %}
+    </dl>
+
+    {% if lat and lng %}
+    <div class="map-embed" style="margin-top:24px; height:320px;" id="map-{{ page.fileSlug }}"></div>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+      (function () {
+        var m = L.map('map-{{ page.fileSlug }}').setView([{{ lat }}, {{ lng }}], 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; OpenStreetMap'
+        }).addTo(m);
+        L.marker([{{ lat }}, {{ lng }}]).addTo(m).bindPopup("{{ title }}");
+      })();
+    </script>
+    {% endif %}
+
+    <div style="margin-top:36px;">
+      <a href="/missioni/" class="btn-outline">← Missioni</a>
+    </div>
+  </div>
+</section>
