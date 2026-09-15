@@ -69,6 +69,10 @@ module.exports = function (eleventyConfig) {
     api.getFilteredByGlob("src/biblioteca/*.md")
   );
 
+    eleventyConfig.addCollection("missioni", (api) =>
+    api.getFilteredByGlob("src/missioni/*.md").sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
+  );
+
   eleventyConfig.addFilter("dateBy", (dateObj) => {
     const d = new Date(dateObj);
     const pad = (n) => String(n).padStart(2, "0");
