@@ -2,6 +2,7 @@
 layout: missione.njk
 title: Scutari
 order: 1
+region: "Albania"
 image: ""
 diocese: "Diocesi di Scutari (Tarabosh e Parrocchia San Nicola)"
 permalink: /missioni/scutari/

@@ -2,6 +2,7 @@
 layout: missione.njk
 title: Nënshat
 order: 2
+region: "Albania"
 image: ""
 diocese: "Diocesi di Sapa"
 permalink: /missioni/nenshat/
