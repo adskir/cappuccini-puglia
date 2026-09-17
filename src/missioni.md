@@ -7,9 +7,20 @@ back_link: false
 ---
 [TODO — TESTO DA COMPLETARE CON DATI REALI]
 
-La Provincia di Puglia dei Frati Minori Cappuccini è presente anche fuori dai confini italiani, con una missione in Albania. I frati vivono in piccole fraternità, condividendo la vita quotidiana delle comunità locali e portando avanti un cammino di evangelizzazione e servizio.
+La Provincia di Puglia dei Frati Minori Cappuccini è presente anche fuori dai confini italiani, con missioni in Albania e in Mozambico. I frati vivono in piccole fraternità, condividendo la vita quotidiana delle comunità locali e portando avanti un cammino di evangelizzazione e servizio.
 
-Le fraternità missionarie attualmente attive:
+<h2 id="albania" style="font-family:var(--font-display); margin-top:40px;">Albania</h2>
 
-- [Scutari](/missioni/scutari/)
-- [Nënshat](/missioni/nenshat/)
+<ul>
+{% for m in collections.missioni %}{% if m.data.region == "Albania" %}
+  <li><a href="{{ m.url }}">{{ m.data.title }}</a></li>
+{% endif %}{% endfor %}
+</ul>
+
+<h2 id="mozambico" style="font-family:var(--font-display); margin-top:40px;">Mozambico</h2>
+
+<ul>
+{% for m in collections.missioni %}{% if m.data.region == "Mozambico" %}
+  <li><a href="{{ m.url }}">{{ m.data.title }}</a></li>
+{% endif %}{% endfor %}
+</ul>

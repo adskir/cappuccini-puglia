@@ -9,8 +9,20 @@ back_link: false
 
 I Frati Minori Cappuccini sono presenti in Puglia da [TODO: anno]. [TODO: breve cenno storico sulla fondazione e sviluppo della presenza cappuccina nella regione.]
 
-Oggi i frati operano a [TODO: elenco città/conventi — vedi sezione "I nostri conventi"]. Attualmente in Puglia sono attivi [TODO: numero] frati cappuccini.
+Questa comunità di frati costituisce la Provincia di Puglia "San Lorenzo da Brindisi" dell'Ordine dei Frati Minori Cappuccini, con conventi in Puglia e in Basilicata.
 
-Questa comunità di frati costituisce la Provincia di Puglia dell'Ordine dei Frati Minori Cappuccini, [TODO: anno di costituzione se rilevante].
+<h2 id="puglia" style="font-family:var(--font-display); margin-top:40px;">Puglia</h2>
 
-A capo della Provincia vi è il Ministro Provinciale, eletto dai frati ogni [TODO: durata mandato]. I cappuccini si dedicano principalmente alla cura pastorale delle parrocchie loro affidate, oltre che alla vita di preghiera e fraternità.
+<ul>
+{% for c in collections.conventi %}{% if c.data.region == "Puglia" %}
+  <li><a href="{{ c.url }}">{{ c.data.title }}</a></li>
+{% endif %}{% endfor %}
+</ul>
+
+<h2 id="basilicata" style="font-family:var(--font-display); margin-top:40px;">Basilicata</h2>
+
+<ul>
+{% for c in collections.conventi %}{% if c.data.region == "Basilicata" %}
+  <li><a href="{{ c.url }}">{{ c.data.title }}</a></li>
+{% endif %}{% endfor %}
+</ul>
