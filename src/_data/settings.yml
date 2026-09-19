@@ -5,8 +5,10 @@ curia:
   name: "Curia Provinciale dell'Ordine dei Frati Minori Cappuccini di Puglia"
   address: "TODO: inserire indirizzo della curia provinciale"
   phone: "080 561 0037"
-  email: "TODO: email"
+  email: "curiacappuccinipuglia@gmail.com"
   map_embed_url: ""
+  lat: 41.1171
+  lng: 16.8719
 
 whatsapp_url: ""
 facebook_url: ""
