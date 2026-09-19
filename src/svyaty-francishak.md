@@ -1,12 +1,10 @@
 ---
 layout: article.njk
 title: San Francesco
-image: /images/uploads/svyaty-francishak-el-greco-stygmaty.webp
+image: /images/uploads/san-francesco-uccelli.jpg
 permalink: /san-francesco/
 ---
 Francesco d'Assisi (1181–1226), fondatore del nostro Ordine, è uno dei più grandi santi cristiani, stimato e amato non solo tra i cattolici, ma anche tra i non credenti. Da otto secoli la figura di San Francesco attira le persone più diverse in ogni parte del mondo e le conquista con la sua semplicità e umiltà.
-
-<!-- TODO: chiedere al committente la foto da inserire qui (non recuperabile dal file Word) -->
 
 Francesco nacque nel 1181 ad Assisi, in Umbria, figlio del mercante Pietro Bernardone. Dopo una giovinezza spensierata, all'età di 24 anni visse una profonda conversione e da allora si dedicò interamente a Dio. Cominciò a vivere in povertà, si prese cura dei lebbrosi, ricostruì con le proprie mani chiese in rovina e predicò il Vangelo.
 
