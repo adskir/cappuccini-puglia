@@ -69,5 +69,3 @@ Tutti noi con cuore grato ci rallegriamo per la grazia della nostra vocazione, d
 Se senti nel cuore una chiamata alla vita religiosa nello spirito di San Francesco, ti invitiamo a conoscere più da vicino la nostra comunità. Il primo passo è contattarci e visitare una delle nostre fraternità.
 
 I cappuccini vivono in comunità fraterne, unendo la preghiera, uno stile di vita semplice e il servizio alle persone. Il cammino verso l'Ordine inizia con un periodo di conoscenza e discernimento della vocazione insieme ai frati.
-
-Se vuoi saperne di più, scrivici a [TODO: email della Provincia] oppure vieni a incontrarci in una delle nostre fraternità.
