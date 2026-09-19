@@ -8,40 +8,9 @@ permalink: /biblioteca/
 </section>
 <section>
   <div class="article">
-    <p style="margin-bottom:40px;">La biblioteca dei Cappuccini raccoglie materiali spirituali, teologici e storici legati alla tradizione francescana e all'attività dell'Ordine dei Cappuccini in Puglia.</p>
+    <p style="margin-bottom:16px;">La biblioteca dei Cappuccini raccoglie volumi di cultura generale, opere antiche e moderne, materiali spirituali, teologici e storici legati al territorio, alla tradizione francescana e all'attività dell'Ordine dei Cappuccini in Puglia.</p>
 
-    <div class="lib-group">
-      <h2>Opere di San Francesco d'Assisi</h2>
-      <ul>
-        {% for doc in collections.biblioteca %}
-          {% if doc.data.category == "opere-francesco" %}
-          <li><a href="{{ doc.url }}">{{ doc.data.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-
-    <div class="lib-group">
-      <h2>Opere e documenti dell'Ordine</h2>
-      <ul>
-        {% for doc in collections.biblioteca %}
-          {% if doc.data.category == "opere-documenti" %}
-          <li><a href="{{ doc.url }}">{{ doc.data.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-
-    <div class="lib-group">
-      <h2>Pubblicazioni sui Cappuccini in Puglia</h2>
-      <ul>
-        {% for doc in collections.biblioteca %}
-          {% if doc.data.category == "pubblicazioni" %}
-          <li><a href="{{ doc.url }}">{{ doc.data.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
+    <p style="margin-bottom:40px;"><a href="http://www.anagrafebbcc.chiesacattolica.it/anagraficaCEIBib/public/VisualizzaScheda.do;jsessionid=27C23485D39D8F3FD0BDC1C611E6F28E">http://www.anagrafebbcc.chiesacattolica.it/anagraficaCEIBib/public/VisualizzaScheda.do;jsessionid=27C23485D39D8F3FD0BDC1C611E6F28E</a></p>
 
     <div style="margin-top:12px;">
       <a href="/" class="btn-outline">← Home</a>
