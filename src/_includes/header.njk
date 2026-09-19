@@ -15,15 +15,7 @@
       <li class="nav-item"><a class="nav-link" href="/san-francesco/">San Francesco</a></li>
       <li class="nav-item"><a class="nav-link" href="/frati-cappuccini/">Frati Cappuccini</a></li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="/presenza-cappuccini/">Conventi</a>
-        <button class="nav-caret" aria-label="Espandi elenco">▾</button>
-        <div class="nav-dropdown">
-          {% for c in collections.conventi %}
-            <a href="{{ c.url }}">{{ c.data.title }}</a>
-          {% endfor %}
-        </div>
-      </li>
+      <li class="nav-item"><a class="nav-link" href="/conventi/">Conventi</a></li>
 
       <li class="nav-item">
         <a class="nav-link" href="/missioni/">Missioni</a>
@@ -35,13 +27,7 @@
         </div>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="/essere-cappuccino/">Essere cappuccino</a>
-        <button class="nav-caret" aria-label="Espandi elenco">▾</button>
-        <div class="nav-dropdown">
-          <a href="/essere-cappuccino/come-diventare-cappuccino/">Come diventare cappuccino</a>
-        </div>
-      </li>
+      <li class="nav-item"><a class="nav-link" href="/essere-cappuccino/">Essere cappuccino</a></li>
 
       <li class="nav-item">
         <span class="nav-link nav-link--parent">Risorse</span>
