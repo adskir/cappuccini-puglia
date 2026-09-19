@@ -3,10 +3,10 @@ site_tagline: "Ordine dei Frati Minori Cappuccini"
 
 curia:
   name: "Curia Provinciale dell'Ordine dei Frati Minori Cappuccini di Puglia"
-  address: "TODO: inserire indirizzo della curia provinciale"
+  address: "Via Generale Nicola Bellomo, 94, 70124 Bari BA"
   phone: "080 561 0037"
   email: "curiacappuccinipuglia@gmail.com"
-  map_embed_url: ""
+  map_embed_url: "https://www.google.com/maps?q=Via+Generale+Nicola+Bellomo,+94,+70124+Bari+BA&output=embed"
   lat: 41.1171
   lng: 16.8719
 
