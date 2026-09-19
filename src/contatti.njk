@@ -22,19 +22,14 @@ permalink: /contatti/
     <span class="section-label reveal">Dove siamo</span>
     <h2 class="section-title reveal">La Curia Provinciale</h2>
     <div class="gold-divider reveal"></div>
-    <div id="map-curia" style="height:420px; border-radius:8px; overflow:hidden;"></div>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script>
-      (function () {
-        {% if settings.curia.lat and settings.curia.lng %}
-        var m = L.map('map-curia').setView([{{ settings.curia.lat }}, {{ settings.curia.lng }}], 15);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; OpenStreetMap'
-        }).addTo(m);
-        L.marker([{{ settings.curia.lat }}, {{ settings.curia.lng }}]).addTo(m).bindPopup("{{ settings.curia.name }}");
-        {% endif %}
-      })();
-    </script>
+    {% if settings.curia.map_embed_url %}
+    <div style="border-radius:8px; overflow:hidden;">
+      <iframe src="{{ settings.curia.map_embed_url }}" width="100%" height="420" style="border:0;" loading="lazy" allowfullscreen></iframe>
+    </div>
+    {% else %}
+    <div style="height:420px; display:flex; align-items:center; justify-content:center; background:var(--cream); border:1px solid #a0522d22; color:var(--text-mid); font-size:14px; text-align:center; padding:20px; border-radius:8px;">
+      La mappa verrà aggiunta (inserire il link embed di Google Maps in settings)
+    </div>
+    {% endif %}
   </div>
 </section>
