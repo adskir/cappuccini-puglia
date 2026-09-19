@@ -24,3 +24,7 @@ La Provincia di Puglia dei Frati Minori Cappuccini è presente anche fuori dai c
   <li><a href="{{ m.url }}">{{ m.data.title }}</a></li>
 {% endif %}{% endfor %}
 </ul>
+
+<div style="text-align:center; margin-top:40px;">
+  <img src="/images/uploads/banner1.jpg" alt="Dona il 5x1000 - Segretariato Missioni Estere Cappuccini Puglia" style="max-width:100%;">
+</div>
