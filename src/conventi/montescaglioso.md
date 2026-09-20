@@ -9,4 +9,4 @@ phone: "0835 207 169"
 email: ""
 permalink: /montescaglioso/
 ---
-Il convento di Montescaglioso è una delle comunità della Provincia di Puglia "San Lorenzo da Brindisi".
+La fraternità di Montescaglioso opera anche nell'Ospedale di Matera.

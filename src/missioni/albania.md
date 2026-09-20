@@ -8,8 +8,12 @@ permalink: /missioni/albania/
 locations:
   - name: "Shkodër (Scutari)"
     address: "Kuvendi Kapucinëve Shën Mari Magdalena, Lagja Liria – Ura e Bunës, Shkodër, Albania"
+    lat: 42.0508
+    lng: 19.4911
   - name: "Nënshat"
     address: "Kuvendi Kapucinëve - Kisha Katolike, Nënshat, Shkodër, Albania"
+    lat: 41.93278
+    lng: 19.64639
 ---
 La Provincia di Puglia dei Frati Minori Cappuccini è presente in Albania con due fraternità.
 

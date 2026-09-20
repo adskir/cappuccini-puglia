@@ -9,4 +9,4 @@ phone: "080 561 00 34"
 email: ""
 permalink: /bari-santa-fara/
 ---
-Il convento – santuario di Santa Fara a Bari è la Curia Provinciale e una delle comunità della Provincia di Puglia "San Lorenzo da Brindisi".
+Il convento – santuario di Santa Fara a Bari ospita anche la Curia provinciale e lo Studentato di teologia.

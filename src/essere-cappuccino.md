@@ -1,9 +1,18 @@
 ---
 layout: byc-kapucynam.njk
-title: Essere cappuccino
+title: Diventare cappuccino
 image: ""
 permalink: /essere-cappuccino/
 quotes:
+  - topic: Fede e gioia
+    quote: Beato quel religioso che trova gioia e diletto solo nelle
+      santissime parole e opere del Signore, e per mezzo di esse conduce le
+      persone all'amore di Dio nella gioia e nell'allegria.
+  - topic: Cura delle chiese
+    quote: "Il Signore mi diede nelle chiese una fede tale che pregavo con
+      grande semplicità e dicevo: «Ti adoriamo, Signore Gesù Cristo, qui e
+      in tutte le tue chiese che sono nel mondo intero, e ti benediciamo,
+      perché con la tua santa croce hai redento il mondo»."
   - topic: Fraternità
     quote: E dovunque i frati si trovino, e in qualsiasi luogo si incontrino,
       si mostrino rispetto reciproco e stima nello spirito, con amore,
@@ -52,15 +61,6 @@ quotes:
     quote: Ogni bene appartiene al Signore Dio altissimo, e sia considerato
       di Sua proprietà. Rendete grazie per ogni cosa a Colui da cui proviene
       ogni bene.
-  - topic: Movimenti e comunità ecclesiali
-    quote: Beato quel religioso che trova gioia e diletto solo nelle
-      santissime parole e opere del Signore, e per mezzo di esse conduce le
-      persone all'amore di Dio nella gioia e nell'allegrezza.
-  - topic: Costruzione delle chiese
-    quote: "Il Signore mi diede nelle chiese una fede tale che pregavo con
-      grande semplicità e dicevo: «Ti adoriamo, Signore Gesù Cristo, qui e
-      in tutte le tue chiese che sono nel mondo intero, e ti benediciamo,
-      perché con la tua santa croce hai redento il mondo»."
 ---
 Tutti noi con cuore grato ci rallegriamo per la grazia della nostra vocazione, donataci da Dio. Perciò accogliamo come membro di un'unica grande famiglia chiunque, secondo la volontà di Dio, desideri anch'egli camminare sulla via di San Francesco.
 
