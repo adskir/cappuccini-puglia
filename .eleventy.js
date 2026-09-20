@@ -78,6 +78,7 @@ module.exports = function (eleventyConfig) {
     const pad = (n) => String(n).padStart(2, "0");
     return `${pad(d.getUTCDate())}.${pad(d.getUTCMonth() + 1)}.${d.getUTCFullYear()}`;
   });
+  eleventyConfig.addFilter("urlencode", (s) => encodeURIComponent(s || ""));
 
   eleventyConfig.addFilter("limit", (arr, n) => (arr || []).slice(0, n));
 
