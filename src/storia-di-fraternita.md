@@ -1,0 +1,14 @@
+---
+layout: article.njk
+title: "Breve storia dei Cappuccini in Puglia"
+permalink: /storia-di-fraternita/
+---
+I primi frati Cappuccini giunsero in Puglia da Roma nel 1533 inviati da fra Ludovico da Fossombrone, vicario generale, e fondarono il primo convento a Rugge (Le) per opera di fra Tullio da Potenza, considerato il fondatore della Provincia di Puglia. Questa fu tra le prime dodici fondate subito dopo il riconoscimento solenne della nuova famiglia francescana dei Cappuccini, sancito da Clemente VII il 3 luglio 1528 con la bolla Religionis zelus e comprendeva le circoscrizioni civili di Terra di Bari, Terra d'Otranto e Basilicata.
+
+Essendo molto difficoltoso governare un così vasto territorio, nel 1560 la Basilicata divenne provincia autonoma e le si assegnarono i cinque conventi esistenti nel suo territorio. Per le stesse ragioni, nel 1590, la rimanente Provincia di S. Girolamo fu divisa ulteriormente in due: quella di S. Maria di Leuca o di Lecce o di Otranto o Santa Maria in finibus terrae, che comprendeva 24 conventi, e quella di Bari o S. Nicolò, comprendente, nel tempo, i conventi di: Acquaviva (1589), Altamura (1563), Andria (1577), Bari (1566), Barletta (1554), Bitonto (1548), Conversano (1572), Gravina (1535), Lavello (1591), Modugno (1584), Molfetta (1540), Monopoli (1566), Montepeloso (1570), Noci (1592), Noicattaro o Noia (1589), Putignano (1573), Spinazzola (1570), Terlizzi (1582), Trani (1591), Venosa (1591), cui si aggiunsero quelli di Cisternino (1596), Corato (1594), Minervino (1583) e Palo (1594), nonché gli ospizi di Santeramo, Trinitapoli, Fasano, Locorotondo, Polignano, Bitritto, Alberobello, Toritto, Bitetto, Castellana e Capurso.
+
+In appena 68 anni, dal 1533 al 1600, i Cappuccini fondarono in Puglia ben 58 conventi. Le prime dimore si devono all'opera instancabile di due predicatori: il già nominato fra Tullio da Potenza, ex conventuale, che fondò, oltre a quello di Rugge, dove morì nel 1542, anche i conventi di Potenza (1530?), Tricarico (s.d.), Taranto (1533 o 1539), Gravina (1535) e Mesagne (1539), e fra Giacomo da Molfetta, che, passato dai Minori osservanti tra i Cappuccini subito dopo la riforma, fondò i conventi di Molfetta (1540), Galatina (1544), Grottaglie (1538), Laterza (1537), Bitonto (1548), Barletta (1554) e Martina Franca (1577).
+
+La ragione di una così rapida diffusione va ricercata nel modus vivendi dei primi Cappuccini: l'austerità della vita tutta permeata di silenzio, preghiera e lavoro, la penitenza continua, la sobrietà nel cibo e la povertà delle abitazioni, la predicazione popolare con stile caratterizzato da semplicità, concretezza e fervore mistico avevano creato attorno a loro un fascino particolare.
+
+Con la ricostituzione nel 1908, seguita alle soppressioni del XIX secolo, la Provincia fu dedicata a [San Lorenzo da Brindisi](/san-lorenzo-da-brindisi/).
