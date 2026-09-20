@@ -3,16 +3,11 @@ layout: convento.njk
 title: "Taranto"
 order: 12
 region: "Puglia"
-image: /images/uploads/PLACEHOLDER-taranto.webp
-address: "TODO: inserire indirizzo esatto del convento"
-phone: "TODO: telefono"
-email: "TODO: email"
-lat: 40.4700
-lng: 17.2300
+image: "/images/uploads/conventi-taranto.webp"
+address: "Via Lago di Varano - 74121 Taranto"
+phone: "099 33 21 83"
+email: ""
 permalink: /taranto/
+website: "https://www.sanlorenzonline.it"
 ---
-[TODO — TESTO DA COMPLETARE]
-
-Il convento dei Frati Minori Cappuccini di Taranto è una delle comunità della Provincia di Puglia "San Lorenzo da Brindisi".
-
-[Sostituire con la storia reale del convento, data di fondazione, attività principali, eventuale santuario o parrocchia annessa, composizione della fraternità — testo e foto forniti dai frati.]
+Il convento – parrocchia San Lorenzo da Brindisi di Taranto è una delle comunità della Provincia di Puglia "San Lorenzo da Brindisi".

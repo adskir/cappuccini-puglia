@@ -5,22 +5,25 @@ order: 1
 region: "Albania"
 image: ""
 permalink: /missioni/albania/
+locations:
+  - name: "Shkodër (Scutari)"
+    address: "Kuvendi Kapucinëve Shën Mari Magdalena, Lagja Liria – Ura e Bunës, Shkodër, Albania"
+  - name: "Nënshat"
+    address: "Kuvendi Kapucinëve - Kisha Katolike, Nënshat, Shkodër, Albania"
 ---
-[TODO — TESTO DA COMPLETARE]
-
 La Provincia di Puglia dei Frati Minori Cappuccini è presente in Albania con due fraternità.
 
 ## Scutari (Tarabosh e Parrocchia San Nicola)
 
-La fraternità di Scutari (Tarabosh) opera nell'ambito della Diocesi di Scutari, con servizio anche presso la Parrocchia San Nicola.
+<div class="loc-hero">{% image "/images/uploads/missione-scutari-shkoder.jpg", "Fraternità di Scutari (Shkodër)" %}</div>
 
-[Sostituire con la storia della fondazione della missione, le attività pastorali e sociali svolte dai frati — testo da fornire.]
+La fraternità di Scutari (Tarabosh) opera nell'ambito della Diocesi di Scutari, con servizio anche presso la Parrocchia San Nicola, dedicandosi alla preghiera e al servizio della comunità locale.
 
 ## Nënshat
 
-La fraternità di Nënshat opera nella valle di Zadrima, nell'ambito della Diocesi di Sapa.
+<div class="loc-hero">{% image "/images/uploads/missione-nenshat.jpg", "Fraternità di Nënshat" %}</div>
 
-[Sostituire con la storia della fondazione della missione, le attività pastorali e sociali svolte dai frati — testo da fornire.]
+La fraternità di Nënshat opera nella valle di Zadrima, nell'ambito della Diocesi di Sapa, dedicandosi alla preghiera e al servizio della comunità locale.
 
 ---
 
