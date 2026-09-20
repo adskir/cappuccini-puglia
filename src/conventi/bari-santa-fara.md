@@ -1,6 +1,6 @@
 ---
 layout: convento.njk
-title: "Bari – Santa Fara (Curia)"
+title: "Bari – Santa Fara"
 order: 1
 region: "Puglia"
 image: "/images/uploads/conventi-bari-santa-fara.jpg"

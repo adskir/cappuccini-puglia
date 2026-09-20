@@ -1,6 +1,6 @@
 ---
 layout: byc-kapucynam.njk
-title: Diventare cappuccino
+title: Diventare frate
 image: ""
 permalink: /essere-cappuccino/
 quotes:
@@ -57,7 +57,7 @@ quotes:
       cambio hanno ricevuto dal Signore la vita eterna. Da qui nasce una
       grande vergogna per noi, servi di Dio, perché i santi compivano grandi
       opere e noi vogliamo ricevere lode e onore raccontandole.
-  - topic: Lavoro con bambini e giovani
+  - topic: Accompagnamento di bambini e giovani
     quote: Ogni bene appartiene al Signore Dio altissimo, e sia considerato
       di Sua proprietà. Rendete grazie per ogni cosa a Colui da cui proviene
       ogni bene.
@@ -69,3 +69,5 @@ Tutti noi con cuore grato ci rallegriamo per la grazia della nostra vocazione, d
 Se senti nel cuore una chiamata alla vita religiosa nello spirito di San Francesco, ti invitiamo a conoscere più da vicino la nostra comunità. Il primo passo è contattarci e visitare una delle nostre fraternità.
 
 I cappuccini vivono in comunità fraterne, unendo la preghiera, uno stile di vita semplice e il servizio alle persone. Il cammino verso l'Ordine inizia con un periodo di conoscenza e discernimento della vocazione insieme ai frati.
+
+Se vuoi saperne di più, scrivici a [curiacappuccinipuglia@gmail.com](mailto:curiacappuccinipuglia@gmail.com) oppure vieni a incontrarci in una delle nostre [fraternità](https://cappuccinipuglia.it/conventi/).

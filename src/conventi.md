@@ -7,7 +7,7 @@ back_link: false
 ---
 I Frati Minori Cappuccini sono presenti in Puglia da secoli, con una storia di fraternità dedicata alla preghiera e al servizio del territorio.
 
-Questa comunità di frati costituisce la Provincia di Puglia "San Lorenzo da Brindisi" dell'Ordine dei Frati Minori Cappuccini, con conventi in Puglia e in Basilicata.
+Questa comunità di frati costituisce la Provincia di Puglia "San Lorenzo da Brindisi" dell'Ordine dei Frati Minori Cappuccini, con conventi in Puglia, Basilicata e Albania.
 
 <h2 id="puglia" style="font-family:var(--font-display); margin-top:40px;">Puglia</h2>
 
