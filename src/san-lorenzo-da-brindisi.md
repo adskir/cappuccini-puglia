@@ -7,6 +7,8 @@ permalink: /san-lorenzo-da-brindisi/
 
 Giulio Cesare, questo il nome di battesimo di san Lorenzo. È nato il 22 luglio 1559. Rimasto orfano di padre, la madre pensò di affidarlo ai frati Conventuali dove ebbe modo di intraprendere gli studi umanistici. All'età di sei anni stupì per la sua eloquenza quanti erano presenti in Cattedrale, probabilmente per un saggio accademico. Accanto agli studi, ebbe modo di respirare la paura dei suoi concittadini, intimoriti dai Turchi che minacciavano le coste pugliesi. Morta anche la madre, verso i 14 anni, in piena adolescenza, si trasferì a Venezia dallo zio paterno. Arrivato in città, ne rimase profondamente colpito per la bellezza e vivacità, ma la memoria tornava spesso al convento, e così cercò un convento di frati: trovò i Cappuccini che subito riconobbero le sue capacità, e lo accolsero in Comunità.
 
+<div class="loc-hero">{% image "/images/uploads/san-lorenzo-dipinto.jpg", "San Lorenzo da Brindisi, Dottore della Chiesa" %}</div>
+
 ## Lorenzo, religioso
 
 A 17 anni fece i primi voti, prendendo il nome di "Lorenzo". Era di spiccata intelligenza, capace, intuitivo, e a 23 anni prese i voti e nel 1582 riceve l'ordinazione sacerdotale.
