@@ -13,4 +13,13 @@ Un segno essenziale è anche la povertà e la gioiosa presenza tra i poveri e i 
 
 Oggi la famiglia cappuccina conta nel mondo più di undicimila frati. Nei cinquecento anni di storia dell'Ordine, tredici cappuccini sono stati proclamati santi. I più conosciuti: san Felice da Cantalice, san Pio da Pietrelcina, san Leopolo Mandic.
 
+<div class="loc-hero">{% image "/images/uploads/san-felice-da-cantalice.jpg", "San Felice da Cantalice" %}</div>
+<p style="text-align:center; font-size:14px; color:var(--text-mid); margin-top:-8px;"><em>San Felice da Cantalice (1515–1587)</em></p>
+
+<div class="loc-hero">{% image "/images/uploads/san-pio-da-pietrelcina.jpg", "San Pio da Pietrelcina" %}</div>
+<p style="text-align:center; font-size:14px; color:var(--text-mid); margin-top:-8px;"><em>San Pio da Pietrelcina (1887–1968)</em></p>
+
+<div class="loc-hero">{% image "/images/uploads/san-leopoldo-mandic.jpg", "San Leopoldo Mandić" %}</div>
+<p style="text-align:center; font-size:14px; color:var(--text-mid); margin-top:-8px;"><em>San Leopoldo Mandić (1866–1942)</em></p>
+
 Visita il sito dell'Ordine: [www.ofmcap.org](https://www.ofmcap.org/)
