@@ -95,7 +95,9 @@ section { padding: 72px 0; }
   max-height: calc(100vh - 90px);
   overflow-y: auto;
 }
-.nav-item:hover .nav-dropdown { display: block; }
+@media (min-width: 901px) {
+  .nav-item:hover .nav-dropdown { display: block; }
+}
 .nav-dropdown a {
   display: block;
   padding: 12px 18px;

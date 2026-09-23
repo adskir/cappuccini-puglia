@@ -3,7 +3,8 @@ layout: convento.njk
 title: "Francavilla Fontana"
 order: 6
 region: "Puglia"
-image: ""
+status: "soppresso"
+image: "/images/uploads/conventi-francavilla-fontana.jpg"
 address: ""
 phone: ""
 email: ""

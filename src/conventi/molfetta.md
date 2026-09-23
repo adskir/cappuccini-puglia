@@ -3,6 +3,7 @@ layout: convento.njk
 title: "Molfetta"
 order: 9
 region: "Puglia"
+status: "rettoria"
 image: "/images/uploads/conventi-molfetta.jpg"
 address: "Piazza Margherita di Savoia — 70056 Molfetta (BA)"
 phone: ""

@@ -3,7 +3,8 @@ layout: convento.njk
 title: "Bari – Immacolata"
 order: 2
 region: "Puglia"
-image: ""
+status: "rettoria"
+image: "/images/uploads/conventi-bari-immacolata.jpg"
 address: ""
 phone: ""
 email: ""
