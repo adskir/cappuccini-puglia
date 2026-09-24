@@ -335,7 +335,7 @@ section { padding: 72px 0; }
 .step-desc { color: var(--text-mid); font-size: 15.5px; }
 
 /* ── NEWS ── */
-.news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 40px; }
+.news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; margin-top: 40px; }
 .news-card { background: var(--cream); border-left: 3px solid var(--gold); text-decoration: none; color: inherit; display: block; overflow: hidden; }
 .news-card:hover { background: var(--cream-light); }
 .news-card-img { margin: 0; }
