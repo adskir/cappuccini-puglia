@@ -12,8 +12,8 @@ Questa comunità di frati costituisce la Provincia di Puglia "San Lorenzo da Bri
 <h2 id="puglia" style="font-family:var(--font-display); margin-top:40px;">Puglia</h2>
 
 <ul class="list-columns">
-{% for c in collections.conventi %}{% if c.data.region == "Puglia" and not c.data.status %}
-  <li><a href="{{ c.url }}">{{ c.data.title }}</a></li>
+{% for c in collections.conventi %}{% if c.data.region == "Puglia" %}
+  <li><a href="{{ c.url }}">{{ c.data.title }}{% if c.data.status == "rettoria" %} (Rettoria){% elif c.data.status == "soppresso" %} (Convento soppresso){% endif %}</a></li>
 {% endif %}{% endfor %}
 </ul>
 
