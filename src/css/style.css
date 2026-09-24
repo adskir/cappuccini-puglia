@@ -336,11 +336,17 @@ section { padding: 72px 0; }
 
 /* ── NEWS ── */
 .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 40px; }
-.news-card { background: var(--cream); border-left: 3px solid var(--gold); padding: 22px 24px; text-decoration: none; color: inherit; display: block; }
+.news-card { background: var(--cream); border-left: 3px solid var(--gold); text-decoration: none; color: inherit; display: block; overflow: hidden; }
 .news-card:hover { background: var(--cream-light); }
+.news-card-img { margin: 0; }
+.news-card-img img { display: block; width: 100%; height: 180px; object-fit: cover; }
+.news-card-body { padding: 22px 24px; }
 .news-date { font-size: 12px; color: var(--brown-warm); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px; display: block; }
 .news-card h3 { font-family: var(--font-display); font-size: 16.5px; color: var(--brown-deep); margin-bottom: 8px; line-height: 1.3; }
 .news-card p { font-size: 14.5px; color: var(--text-mid); }
+.news-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 28px 0; }
+.news-gallery picture { display: block; }
+.news-gallery img { width: 100%; height: 160px; object-fit: cover; border-radius: 6px; display: block; }
 
 /* ── LOCATIONS ── */
 .loc-pills { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 36px; }
@@ -382,6 +388,15 @@ section { padding: 72px 0; }
   column-gap: 40px;
 }
 .list-columns li { break-inside: avoid; margin-bottom: 6px; }
+.list-columns a {
+  font-weight: 600;
+  font-size: 15.5px;
+  color: var(--brown-deep);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 1px;
+}
+.list-columns a:hover { color: var(--gold); border-bottom-color: var(--brown-deep); }
 @media (max-width: 600px) {
   .list-columns { columns: 1; }
 }

@@ -1,0 +1,27 @@
+---
+layout: base.njk
+---
+<section class="page-hero">
+  <h1>{{ title }}</h1>
+  <div class="breadcrumb">{{ date | dateBy }}</div>
+</section>
+
+<section>
+  <div class="article">
+    {% if image %}<div class="loc-hero">{% image image, title %}</div>{% endif %}
+
+    {{ content | safe }}
+
+    {% if gallery and gallery.length %}
+    <div class="news-gallery">
+      {% for g in gallery %}
+      {% image g, title, "400px" %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div style="margin-top:36px;">
+      <a href="/notizie/" class="btn-outline">← Tutte le notizie</a>
+    </div>
+  </div>
+</section>
