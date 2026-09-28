@@ -37,6 +37,12 @@ body {
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; }
 
+/* Testo centrato su richiesta del cliente — vale per tutti i paragrafi del sito.
+   Elenchi, tabelle, moduli e navigazione restano allineati a sinistra: la
+   centratura riguarda i blocchi di testo, non le liste (che si leggono male
+   centrate). */
+p { text-align: center; }
+
 .container { max-width: var(--container-w); margin: 0 auto; padding: 0 24px; }
 .container-narrow { max-width: var(--container-narrow); margin: 0 auto; padding: 0 24px; }
 
@@ -254,10 +260,11 @@ section { padding: 72px 0; }
 /* ── SECTION HEADERS ── */
 .section-label {
   font-family: var(--font-display);
-  font-size: 10px;
-  letter-spacing: 0.35em;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--brown-warm);
+  color: var(--brown-deep);
   display: block;
   margin-bottom: 10px;
 }
@@ -386,7 +393,7 @@ section { padding: 72px 0; }
 
 /* ── ARTICLE / RICH TEXT ── */
 .article { max-width: var(--container-narrow); margin: 0 auto; padding: 0 24px; }
-.article img { margin: 32px 0; }
+.article img { margin: 32px 0; width: 100%; border-radius: 8px; display: block; }
 .loc-hero { margin: 32px 0; }
 .loc-hero picture, .loc-hero img {
   width: 100%;
