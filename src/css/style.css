@@ -37,11 +37,10 @@ body {
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; }
 
-/* Testo centrato su richiesta del cliente — vale per tutti i paragrafi del sito.
-   Elenchi, tabelle, moduli e navigazione restano allineati a sinistra: la
-   centratura riguarda i blocchi di testo, non le liste (che si leggono male
-   centrate). */
-p { text-align: center; }
+/* Testo giustificato su richiesta del cliente — vale per tutti i paragrafi del
+   sito. Elenchi, tabelle, moduli e navigazione restano allineati a sinistra:
+   riguarda i blocchi di testo, non le liste. */
+p { text-align: justify; }
 
 .container { max-width: var(--container-w); margin: 0 auto; padding: 0 24px; }
 .container-narrow { max-width: var(--container-narrow); margin: 0 auto; padding: 0 24px; }

@@ -3,7 +3,7 @@ layout: convento.njk
 title: "Francavilla Fontana"
 order: 6
 region: "Puglia"
-status: "soppresso"
+status: "rettoria"
 anno_fondazione: "1560"
 image: "/images/uploads/conventi-francavilla-fontana.jpg"
 address: "Via San Francesco d'Assisi - 72021 Francavilla Fontana (BR)"
