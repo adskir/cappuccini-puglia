@@ -224,6 +224,7 @@ section { padding: 72px 0; }
   color: var(--gold-light);
   max-width: 640px;
   margin-bottom: 40px;
+  text-align: center;
 }
 .btn {
   display: inline-block;
@@ -514,6 +515,7 @@ a.footer-contact-item:hover { color: var(--gold-light); }
   color: #c9a84c99;
 }
 .footer-bottom .tau { width: 34px; height: auto; display: block; margin: 0 auto 12px; opacity: 0.75; }
+.footer-bottom a.footer-contact-item { text-transform: none; }
 /* ── FORM ── */
 .field { margin-bottom: 18px; display: flex; flex-direction: column; gap: 6px; }
 .field label { font-size: 13px; letter-spacing: 0.04em; color: var(--brown-mid); }
