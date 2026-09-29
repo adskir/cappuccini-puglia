@@ -71,5 +71,6 @@ Se senti nel cuore una chiamata alla vita religiosa nello spirito di San Frances
 I cappuccini vivono in comunità fraterne, unendo la preghiera, uno stile di vita semplice e il servizio alle persone. Il cammino verso l'Ordine inizia con un periodo di conoscenza e discernimento della vocazione insieme ai frati.
 
 <p style="text-align:center;"><strong>Se vuoi saperne di più, scrivici a<br>
-<a href="mailto:curiacappuccinipuglia@gmail.com">curiacappuccinipuglia@gmail.com</a> oppure vieni a incontrarci in una<br>
+<a href="mailto:curiacappuccinipuglia@gmail.com">curiacappuccinipuglia@gmail.com</a><br>
+oppure vieni a incontrarci in una<br>
 delle nostre <a href="https://cappuccinipuglia.it/conventi/">fraternità</a>.</strong></p>
