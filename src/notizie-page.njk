@@ -11,7 +11,7 @@ permalink: /notizie/
     <div class="news-grid">
       {% for post in collections.notizie %}
       <a href="{{ post.url }}" class="news-card reveal">
-        {% if post.data.image %}<div class="news-card-img">{% image post.data.image, post.data.title, "(min-width: 800px) 400px, 100vw" %}</div>{% endif %}
+        {% if post.data.image %}<div class="news-card-img"{% if post.data.image_position %} style="--news-img-pos: {{ post.data.image_position }};"{% endif %}>{% image post.data.image, post.data.title, "(min-width: 800px) 400px, 100vw" %}</div>{% endif %}
         <div class="news-card-body">
           <span class="news-date">{{ post.data.date | dateBy }}</span>
           <h3>{{ post.data.title }}</h3>

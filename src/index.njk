@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
         {% image "/images/uploads/san-francesco-uccelli.jpg", "San Francesco", "(min-width: 700px) 340px, 100vw" %}
         <div class="body">
           <h3>San Francesco</h3>
-          <p>Francesco d'Assisi (1181–1226), fondatore del nostro Ordine — uno dei più grandi santi cristiani.</p>
+          <p>Francesco d'Assisi (1181–1226), fondatore del nostro Ordine, è uno dei più grandi santi cristiani.</p>
           <span class="more">Continua a leggere →</span>
         </div>
       </a>
@@ -53,7 +53,7 @@ eleventyExcludeFromCollections: true
     <div class="news-grid">
       {% for post in collections.notizie | limit(3) %}
       <a href="{{ post.url }}" class="news-card reveal">
-        {% if post.data.image %}<div class="news-card-img">{% image post.data.image, post.data.title, "(min-width: 800px) 400px, 100vw" %}</div>{% endif %}
+        {% if post.data.image %}<div class="news-card-img"{% if post.data.image_position %} style="--news-img-pos: {{ post.data.image_position }};"{% endif %}>{% image post.data.image, post.data.title, "(min-width: 800px) 400px, 100vw" %}</div>{% endif %}
         <div class="news-card-body">
           <span class="news-date">{{ post.data.date | dateBy }}</span>
           <h3>{{ post.data.title }}</h3>
