@@ -465,7 +465,7 @@ section { padding: 72px 0; }
 @media (max-width: 700px) { .people-list { columns: 1; } }
 
 /* ── CONTACT ── */
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 32px; align-items: start; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 32px; align-items: center; }
 @media (max-width: 800px) { .contact-grid { grid-template-columns: 1fr; } }
 .contact-item { display: flex; gap: 14px; margin-bottom: 18px; }
 .contact-item .icon { font-size: 20px; color: var(--gold); }
