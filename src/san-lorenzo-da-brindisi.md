@@ -1,6 +1,7 @@
 ---
 layout: article.njk
 title: "San Lorenzo da Brindisi"
+description: "San Lorenzo da Brindisi, Dottore della Chiesa: la vita del cappuccino brindisino, patrono della Provincia di Puglia."
 permalink: /san-lorenzo-da-brindisi/
 ---
 ## L'infanzia a Brindisi

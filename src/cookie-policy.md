@@ -1,6 +1,7 @@
 ---
 layout: article.njk
 title: "Cookie Policy"
+description: "Informativa sui cookie del sito dei Frati Minori Cappuccini di Puglia."
 permalink: /cookie-policy/
 back_link: false
 ---

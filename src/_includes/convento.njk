@@ -8,7 +8,7 @@ layout: base.njk
 
 <section>
   <div class="article">
-    {% if image %}<div class="loc-hero">{% image image, title %}</div>{% endif %}
+    {% if image %}<div class="loc-hero">{% image image, image_alt or title %}</div>{% endif %}
 
     {{ content | safe }}
 

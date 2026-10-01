@@ -2,6 +2,7 @@
 layout: article.njk
 title: Conventi
 image: /images/uploads/conventi-santa-fara.jpg
+description: "Tutti i conventi e le rettorie dei Frati Minori Cappuccini della Provincia di Puglia, Basilicata e Albania."
 permalink: /conventi/
 back_link: false
 ---

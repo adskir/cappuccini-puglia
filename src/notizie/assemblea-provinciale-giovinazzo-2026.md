@@ -14,6 +14,7 @@ gallery:
   - "/images/uploads/notizia1/photo-08.jpg"
   - "/images/uploads/notizia1/photo-09.jpg"
   - "/images/uploads/notizia1/photo-10.jpg"
+description: "I frati della Provincia di Puglia si sono riuniti nel convento di Giovinazzo per la prima assemblea provinciale dell'anno fraterno e pastorale."
 permalink: /notizie/assemblea-provinciale-giovinazzo-2026/
 ---
 Lunedì scorso, 21 settembre, i frati della provincia di Puglia si sono ritrovati presso il convento di Giovinazzo per la prima assemblea provinciale dell'anno fraterno e pastorale.

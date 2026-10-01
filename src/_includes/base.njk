@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{% if title %}{{ title }} — {% endif %}{{ settings.site_title }}</title>
 <meta name="description" content="{{ description or settings.site_tagline }}">
+<link rel="canonical" href="https://cappuccinipuglia.it{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ settings.site_title }}">
+<meta property="og:title" content="{% if title %}{{ title }} — {% endif %}{{ settings.site_title }}">
+<meta property="og:description" content="{{ description or settings.site_tagline }}">
+<meta property="og:url" content="https://cappuccinipuglia.it{{ page.url }}">
+<meta property="og:image" content="https://cappuccinipuglia.it{{ image or '/images/uploads/logo-cappuccini-puglia.png' }}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css?v=4">

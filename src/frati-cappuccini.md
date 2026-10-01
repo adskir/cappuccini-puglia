@@ -2,6 +2,7 @@
 layout: article.njk
 title: Frati Cappuccini
 image: /images/uploads/frati-cappuccini-gruppo.jpg
+description: "Chi sono i Frati Minori Cappuccini: storia, spiritualità e stile di vita dell'Ordine nato nel 1528 dalla riforma francescana."
 permalink: /frati-cappuccini/
 back_link: false
 ---

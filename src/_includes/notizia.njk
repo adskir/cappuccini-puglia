@@ -3,12 +3,12 @@ layout: base.njk
 ---
 <section class="page-hero">
   <h1>{{ title }}</h1>
-  <div class="breadcrumb">{{ date | dateBy }}</div>
+  <div class="breadcrumb">Notizie</div>
 </section>
 
 <section>
   <div class="article">
-    {% if image %}<div class="loc-hero{% if image_contain %} loc-hero--contain{% endif %}">{% image image, title %}</div>{% endif %}
+    {% if image %}<div class="loc-hero{% if image_contain %} loc-hero--contain{% endif %}">{% image image, image_alt or title %}</div>{% endif %}
 
     {{ content | safe }}
 

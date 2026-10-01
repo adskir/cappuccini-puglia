@@ -1,6 +1,7 @@
 ---
 layout: article.njk
 title: "Storia di fraternità"
+description: "La storia dei Frati Minori Cappuccini in Puglia dal 1533: le origini, la fondazione dei conventi e l'espansione della Provincia."
 permalink: /storia-di-fraternita/
 ---
 I primi frati Cappuccini giunsero in Puglia da Roma nel 1533 inviati da fra Ludovico da Fossombrone, vicario generale, e fondarono il primo convento a Rugge (Le) per opera di fra Tullio da Potenza, considerato il fondatore della Provincia di Puglia. Questa fu tra le prime dodici fondate subito dopo il riconoscimento solenne della nuova famiglia francescana dei Cappuccini, sancito da Clemente VII il 3 luglio 1528 con la bolla Religionis zelus e comprendeva le circoscrizioni civili di Terra di Bari, Terra d'Otranto e Basilicata.

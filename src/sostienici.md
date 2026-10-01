@@ -1,6 +1,7 @@
 ---
 layout: article.njk
 title: "Sostienici"
+description: "Sostieni le opere sociali e missionarie dei Frati Minori Cappuccini di Puglia e la formazione dei giovani seminaristi: come fare una donazione."
 permalink: /sostienici/
 ---
 Ci sono diversi modi per sostenere le opere sociali e missionarie dei Frati Minori Cappuccini di Puglia e la formazione dei giovani seminaristi. Grazie per la tua generosità.

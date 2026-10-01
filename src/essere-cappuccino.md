@@ -2,6 +2,7 @@
 layout: byc-kapucynam.njk
 title: Diventare frate
 image: ""
+description: "Senti una chiamata alla vita religiosa? Scopri come diventare Frate Minore Cappuccino: il cammino vocazionale e come contattarci."
 permalink: /essere-cappuccino/
 quotes:
   - topic: Fede e gioia
@@ -62,7 +63,7 @@ quotes:
       di Sua proprietà. Rendete grazie per ogni cosa a Colui da cui proviene
       ogni bene.
 ---
-Tutti noi con cuore grato ci rallegriamo per la grazia della nostra vocazione, donataci da Dio. Perciò accogliamo come membro di un'unica grande famiglia chiunque, secondo la volontà di Dio, desideri anch'egli camminare sulla via di San Francesco.
+Tutti noi con cuore grato ci rallegriamo per la grazia della nostra vocazione, donataci da Dio. Perciò accogliamo come membro di un'unica grande famiglia chiunque, secondo la volontà di Dio, desideri camminare sulla via di San Francesco.
 
 ![](/images/uploads/gemini_generated_image_g33qdyg33qdyg33q.png)
 

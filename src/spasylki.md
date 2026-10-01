@@ -1,6 +1,7 @@
 ---
 layout: article.njk
 title: "Link utili"
+description: "Link utili alle risorse ufficiali della Chiesa e dell'Ordine dei Frati Minori Cappuccini nel mondo."
 permalink: /link-utili/
 ---
 I Cappuccini sono un ordine internazionale, presente in più di 100 paesi del mondo. Qui trovate i link alle risorse ufficiali della Chiesa e dell'Ordine, oltre che ad altre province cappuccine.

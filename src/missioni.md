@@ -2,6 +2,7 @@
 layout: article.njk
 title: Missioni
 image: ""
+description: "Le missioni dei Frati Minori Cappuccini di Puglia in Albania e Mozambico: fraternità, evangelizzazione e servizio alle comunità locali."
 permalink: /missioni/
 back_link: false
 ---

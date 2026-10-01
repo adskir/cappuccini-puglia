@@ -2,6 +2,7 @@
 layout: article.njk
 title: San Francesco
 image: /images/uploads/san-francesco-uccelli.jpg
+description: "La vita di San Francesco d'Assisi (1181–1226), fondatore dell'Ordine dei Frati Minori: conversione, Regola francescana e Cantico delle creature."
 permalink: /san-francesco/
 ---
 Francesco d'Assisi (1181–1226), fondatore del nostro Ordine, è uno dei più grandi santi cristiani, stimato e amato non solo tra i cattolici, ma anche tra i non credenti. Da otto secoli la figura di San Francesco attira le persone più diverse in ogni parte del mondo e le conquista con la sua semplicità e umiltà.

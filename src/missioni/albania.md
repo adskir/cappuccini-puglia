@@ -4,6 +4,7 @@ title: Albania
 order: 1
 region: "Albania"
 image: ""
+description: "La missione dei Frati Minori Cappuccini in Albania: le fraternità di Shkodër (Scutari) e Nënshat."
 permalink: /missioni/albania/
 locations:
   - name: "Shkodër (Scutari)"

@@ -1,6 +1,7 @@
 ---
 layout: article.njk
 title: "Conventi soppressi"
+description: "I conventi soppressi dei Frati Minori Cappuccini di Puglia: le comunità storiche della Provincia non più attive."
 permalink: /conventi-soppressi/
 ---
 I Conventi soppressi sono comunità storiche della Provincia non più attive.

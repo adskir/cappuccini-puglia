@@ -61,6 +61,7 @@ collections:
       - { label: "Nome della città", name: "title", widget: "string" }
       - { label: "Ordine nel menu", name: "order", widget: "number", default: 1 }
       - { label: "Foto", name: "image", widget: "image", required: false }
+      - { label: "Descrizione foto (per Google e persone non vedenti)", name: "image_alt", widget: "string", required: false, hint: "Es. 'Chiesa del convento di Molfetta vista dall'esterno'. Se vuoto, viene usato il nome della città." }
       - { label: "Testo", name: "body", widget: "markdown" }
       - { label: "Indirizzo", name: "address", widget: "string", required: false }
       - { label: "Indirizzo per corrispondenza", name: "correspondence_address", widget: "string", required: false }
@@ -78,6 +79,7 @@ collections:
           - { label: "Giorno/i", name: "label", widget: "string" }
           - { label: "Orario", name: "time", widget: "string" }
       - { label: "URL della pagina", name: "permalink", widget: "string", hint: "Es. /bari/" }
+      - { label: "Descrizione per Google (meta description)", name: "description", widget: "text", required: false, hint: "150-160 caratteri circa. Se vuoto, viene usata una descrizione generica del sito." }
 
   # ── NOTIZIE ──
   - name: "notizie"
@@ -89,6 +91,7 @@ collections:
       - { label: "Titolo", name: "title", widget: "string" }
       - { label: "Data", name: "date", widget: "datetime" }
       - { label: "Foto", name: "image", widget: "image", required: false }
+      - { label: "Descrizione foto (per Google e persone non vedenti)", name: "image_alt", widget: "string", required: false, hint: "Es. 'Locandina dell'incontro vocazionale'. Se vuoto, viene usato il titolo della notizia." }
       - { label: "Breve descrizione", name: "excerpt", widget: "text" }
       - { label: "Testo della notizia", name: "body", widget: "markdown" }
       - { label: "URL della pagina", name: "permalink", widget: "string", hint: "Es. /notizie/nome-notizia/" }
@@ -102,6 +105,7 @@ collections:
       - { label: "Nome della fraternità", name: "title", widget: "string" }
       - { label: "Ordine nel menu", name: "order", widget: "number", default: 1 }
       - { label: "Foto", name: "image", widget: "image", required: false }
+      - { label: "Descrizione foto (per Google e persone non vedenti)", name: "image_alt", widget: "string", required: false, hint: "Se vuoto, viene usato il nome della fraternità." }
       - { label: "Testo", name: "body", widget: "markdown" }
       - { label: "Diocesi", name: "diocese", widget: "string", required: false }
       - { label: "E-mail", name: "email", widget: "string", required: false }
@@ -114,6 +118,7 @@ collections:
       - { label: "Latitudine", name: "lat", widget: "number", required: false }
       - { label: "Longitudine", name: "lng", widget: "number", required: false }
       - { label: "URL della pagina", name: "permalink", widget: "string", hint: "Es. /missioni/albania/" }
+      - { label: "Descrizione per Google (meta description)", name: "description", widget: "text", required: false, hint: "150-160 caratteri circa. Se vuoto, viene usata una descrizione generica del sito." }
   # ── BIBLIOTECA ──
   - name: "biblioteca"
     label: "Biblioteca"
@@ -144,6 +149,7 @@ collections:
           - { label: "Titolo", name: "title", widget: "string" }
           - { label: "Foto", name: "image", widget: "image", required: false }
           - { label: "Testo", name: "body", widget: "markdown" }
+          - { label: "Descrizione per Google (meta description)", name: "description", widget: "text", required: false }
 
       - name: "frati-cappuccini"
         label: "Frati Cappuccini"
@@ -152,6 +158,7 @@ collections:
           - { label: "Titolo", name: "title", widget: "string" }
           - { label: "Foto", name: "image", widget: "image", required: false }
           - { label: "Testo", name: "body", widget: "markdown" }
+          - { label: "Descrizione per Google (meta description)", name: "description", widget: "text", required: false }
 
       - name: "conventi"
         label: "Conventi (pagina indice)"
@@ -160,6 +167,7 @@ collections:
           - { label: "Titolo", name: "title", widget: "string" }
           - { label: "Foto", name: "image", widget: "image", required: false }
           - { label: "Testo", name: "body", widget: "markdown" }
+          - { label: "Descrizione per Google (meta description)", name: "description", widget: "text", required: false }
 
       - name: "patrono-provincia"
         label: "Patrono della Provincia"
@@ -168,6 +176,7 @@ collections:
           - { label: "Titolo", name: "title", widget: "string" }
           - { label: "Foto", name: "image", widget: "image", required: false }
           - { label: "Testo", name: "body", widget: "markdown" }
+          - { label: "Descrizione per Google (meta description)", name: "description", widget: "text", required: false }
 
       - name: "essere-cappuccino"
         label: "Essere cappuccino"
@@ -182,6 +191,7 @@ collections:
             fields:
               - { label: "Tema", name: "topic", widget: "string" }
               - { label: "Citazione", name: "quote", widget: "text" }
+          - { label: "Descrizione per Google (meta description)", name: "description", widget: "text", required: false }
 
       - name: "link-utili"
         label: "Link utili"
@@ -189,6 +199,7 @@ collections:
         fields:
           - { label: "Titolo", name: "title", widget: "string" }
           - { label: "Testo con i link", name: "body", widget: "markdown" }
+          - { label: "Descrizione per Google (meta description)", name: "description", widget: "text", required: false }
 
       - name: "galleria"
         label: "Galleria"

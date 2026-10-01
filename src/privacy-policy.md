@@ -1,6 +1,7 @@
 ---
 layout: article.njk
 title: "Privacy Policy"
+description: "Informativa sulla privacy del sito dei Frati Minori Cappuccini di Puglia."
 permalink: /privacy-policy/
 back_link: false
 ---
