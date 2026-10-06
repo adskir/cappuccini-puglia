@@ -394,6 +394,8 @@ section { padding: 72px 0; }
 
 /* ── ARTICLE / RICH TEXT ── */
 .article { max-width: var(--container-narrow); margin: 0 auto; padding: 0 24px; }
+.video-embed { max-width: 640px; margin: 32px auto; border-radius: 8px; overflow: hidden; }
+.video-embed iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; display: block; }
 .article img { margin: 32px 0; width: 100%; border-radius: 8px; display: block; }
 .loc-hero { margin: 32px 0; }
 .loc-hero picture, .loc-hero img {
