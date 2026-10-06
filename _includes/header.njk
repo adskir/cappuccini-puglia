@@ -1,0 +1,50 @@
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="/" class="brand">
+      <img class="brand-mark" src="/images/uploads/logo-cappuccini-puglia.png" alt="">
+      <span class="brand-text">
+        <span class="big">Frati Minori</span>
+        <span class="small">CAPPUCCINI</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+
+    <ul class="nav-list" id="navList">
+      <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="/san-francesco/">San Francesco</a></li>
+      <li class="nav-item"><a class="nav-link" href="/frati-cappuccini/">Frati Cappuccini</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/conventi/">Conventi</a></li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/missioni/">Missioni</a>
+        <button class="nav-caret" aria-label="Espandi elenco">▾</button>
+        <div class="nav-dropdown">
+          {% for m in collections.missioni %}
+            <a href="{{ m.url }}">{{ m.data.title }}</a>
+          {% endfor %}
+        </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="/essere-cappuccino/">Diventare frate</a></li>
+
+      <li class="nav-item">
+        <span class="nav-link nav-link--parent">Risorse</span>
+        <button class="nav-caret" aria-label="Espandi elenco">▾</button>
+        <div class="nav-dropdown">
+          <a href="/biblioteca/">Biblioteca</a>
+          <a href="/notizie/">Notizie</a>
+          <a href="/galleria/">Galleria</a>
+          <a href="/museo-mozambico/">Museo Mozambico</a>
+          <a href="/storia-di-fraternita/">Un po' di storia</a>
+          <a href="/san-lorenzo-da-brindisi/">San Lorenzo da Brindisi</a>
+          <a href="/link-utili/">Link utili</a>
+          <a href="/sostienici/">Sostienici</a>
+        </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="/contatti/">Contatti</a></li>
+    </ul>
+  </div>
+</header>
