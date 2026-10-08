@@ -45,6 +45,10 @@ Sede del postulandato. I frati si dedicano alla formazione dei postulanti, assis
 {% image "/images/uploads/banner-segretariato-missioni.jpg", "Segretariato Missioni Estere Cappuccini O.d.V.", "420px" %}
 </div>
 
+<div style="text-align:center; margin:28px 0;">
+<a href="/museo-mozambico/" class="btn-outline">Visita il Museo Etnografico Africa-Mozambico →</a>
+</div>
+
 ---
 
 Sito della missione: [missionarinostri.it](https://missionarinostri.it)
