@@ -11,16 +11,36 @@ I cookie sono piccoli file di testo che i siti visitati inviano al dispositivo d
 
 ## Cookie utilizzati su questo sito
 
-Questo sito **non utilizza cookie di profilazione né strumenti di analisi statistica (analytics)**. Non è presente alcun modulo di raccolta dati.
+### Cookie tecnici (sempre attivi)
 
-Alcuni contenuti incorporati da servizi esterni possono comunque installare cookie propri quando la pagina che li contiene viene caricata:
+Il sito memorizza nel browser dell'utente solo la scelta espressa sui cookie (chiave `cp_cookie_consent`, conservata per 6 mesi), così da non riproporre il banner a ogni visita. Per questo non è richiesto il consenso.
 
-- **Google Maps** — utilizzato nelle pagine dei conventi, delle missioni e dei contatti per mostrare le mappe interattive. Google può installare propri cookie tecnici e di terze parti secondo la sua [Cookie Policy](https://policies.google.com/technologies/cookies).
-- **Google Fonts** — utilizzato per il caricamento dei caratteri tipografici del sito.
+### Cookie di statistica — Google Analytics (solo con consenso)
 
-## Come gestire i cookie
+Con il consenso dell'utente il sito utilizza **Google Analytics 4** (Google Ireland Limited) per raccogliere statistiche aggregate sulle visite: numero di visitatori, pagine consultate, durata della visita, provenienza geografica approssimativa, dispositivo e browser. I dati servono solo a capire come viene usato il sito e a migliorarlo; non vengono usati per pubblicità né per profilare gli utenti.
 
-È possibile gestire o disattivare i cookie in qualsiasi momento tramite le impostazioni del proprio browser. Si ricorda che disattivare i cookie di terze parti (ad esempio quelli di Google Maps) può impedire la corretta visualizzazione delle mappe presenti sul sito.
+Google Analytics installa i cookie `_ga` e `_ga_*` (durata massima 2 anni). Google Analytics 4 non registra né conserva l'indirizzo IP completo. I dati possono essere trasferiti negli Stati Uniti, nel rispetto del Data Privacy Framework UE-USA. [Informativa privacy di Google](https://policies.google.com/privacy) · [Come Google utilizza i dati](https://policies.google.com/technologies/partner-sites)
+
+Senza consenso Google Analytics non viene caricato.
+
+### Contenuti di terze parti (solo con consenso)
+
+Alcune pagine contengono contenuti esterni che possono installare cookie propri:
+
+- **Google Maps** — mappe nelle pagine dei conventi, delle missioni e dei contatti. [Cookie Policy di Google](https://policies.google.com/technologies/cookies)
+- **YouTube** — video incorporati, in modalità a privacy avanzata (youtube-nocookie.com). [Informativa privacy di Google](https://policies.google.com/privacy)
+
+Questi contenuti vengono caricati solo dopo il consenso dato nel banner, oppure quando l'utente sceglie di visualizzare la singola mappa o il singolo video con il pulsante «Mostra la mappa» / «Mostra il video».
+
+I caratteri tipografici del sito sono ospitati direttamente sul sito e non vengono scaricati da servizi esterni.
+
+## Come dare o revocare il consenso
+
+Alla prima visita un banner permette di scegliere **Accetta** o **Rifiuta**; chiudendo il banner con la «×» i cookie non tecnici restano disattivati. La scelta può essere modificata in qualsiasi momento con il link **«preferenze cookie»** in fondo a ogni pagina. Revocando il consenso, i cookie di Google Analytics vengono eliminati.
+
+## Come gestire i cookie dal browser
+
+È possibile gestire o disattivare i cookie in qualsiasi momento tramite le impostazioni del proprio browser. 
 
 Per maggiori informazioni sulla gestione dei cookie nei principali browser:
 

@@ -53,6 +53,17 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/fonts");
+
+  // Cookie consent: Google Maps / YouTube iframes get their src only after consent (see src/js/consent.js).
+  // Applied to the final HTML, so it also covers embeds added later from the CMS.
+  eleventyConfig.addTransform("consent-embeds", function (content) {
+    if (!(this.page.outputPath || "").endsWith(".html")) return content;
+    return content.replace(
+      /<iframe([^>]*?)\ssrc="(https?:\/\/(?:www\.)?(?:google\.[a-z.]+\/maps|maps\.google\.[a-z.]+|youtube\.com|youtube-nocookie\.com)[^"]*)"/gi,
+      (m, before, src) => `<iframe${before} data-consent-src="${src.replace("://www.youtube.com/embed/", "://www.youtube-nocookie.com/embed/")}"`
+    );
+  });
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("src/_redirects");
